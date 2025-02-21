@@ -1,44 +1,39 @@
-/*  your css code here. If applicable */
-*{
-	margin : 0;
-	padding : 0;
-	box-sizing : border-box;
-	
-}
-.container{
-	width : 500px;
-	height : 250px;
-	margin : 20px;
-	padding : 20px;
-	border : 2px solid black;
-	border-radius : 20px;
-	display : flex;
-	justify-content : center;
-	align-items : center;
-	text-align : center;
-	background-color : silver;
+/* Container style */
+.container {
+  width: 400px;                /* Set the container width */
+  height: 200px;               /* Set a height for the container */
+  padding: 20px;               /* Padding inside the container */
+  border: 5px solid black;     /* Black border around the container */
+  border-radius: 15px;         /* Rounded corners */
+  display: flex;               /* Use flexbox for positioning */
+  justify-content: center;     /* Center the blocks horizontally */
+  align-items: center;         /* Center the blocks vertically */
+  background-color: lightgray; /* Light gray background for the container */
 }
 
-.item{
-	width : 120px;
-	height : 120px;
-	border-radius : 50%;
-	margin : 10px
-
-	
-	
+/* Red block style */
+.red {
+  width: 80px;                /* Set width */
+  height: 80px;               /* Set height */
+  background-color: red;      /* Red background color */
+  border-radius: 50%;         /* Make it circular */
+  margin: 10px;               /* Space between blocks */
 }
 
-	#item1{
-		background-color : green;
-	}
-	#item2{
-		background-color : yellow;
-	}
-	#item3{
-		background-color : red;
-	}
+/* Green block style */
+.green {
+  width: 80px;                /* Set width */
+  height: 80px;               /* Set height */
+  background-color: green;    /* Green background color */
+  border-radius: 50%;         /* Make it circular */
+  margin: 10px;               /* Space between blocks */
+}
 
-
-
-
+/* Yellow block style */
+.yellow {
+  width: 80px;                /* Set width */
+  height: 80px;               /* Set height */
+  background-color: yellow;   /* Yellow background color */
+  border-radius: 50%;         /* Make it circular */
+  margin: 10px;               /* Space between blocks */
+}
