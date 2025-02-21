@@ -1,7 +1,7 @@
 /* Container style */
 .container {
-  width: 400px;                /* Set the container width */
-  height: 200px;               /* Set a height for the container */
+  width: 500px;                /* Set the container width */
+  height: 300px;               /* Set a height for the container */
   padding: 20px;               /* Padding inside the container */
   border: 5px solid black;     /* Black border around the container */
   border-radius: 15px;         /* Rounded corners */
@@ -13,8 +13,8 @@
 
 /* Red block style */
 .red {
-  width: 80px;                /* Set width */
-  height: 80px;               /* Set height */
+  width: 150px;                /* Set width */
+  height: 150px;               /* Set height */
   background-color: red;      /* Red background color */
   border-radius: 50%;         /* Make it circular */
   margin: 10px;               /* Space between blocks */
@@ -22,8 +22,8 @@
 
 /* Green block style */
 .green {
-  width: 80px;                /* Set width */
-  height: 80px;               /* Set height */
+  width: 150px;                /* Set width */
+  height: 150px;               /* Set height */
   background-color: green;    /* Green background color */
   border-radius: 50%;         /* Make it circular */
   margin: 10px;               /* Space between blocks */
@@ -31,8 +31,8 @@
 
 /* Yellow block style */
 .yellow {
-  width: 80px;                /* Set width */
-  height: 80px;               /* Set height */
+  width: 150px;                /* Set width */
+  height: 150px;               /* Set height */
   background-color: yellow;   /* Yellow background color */
   border-radius: 50%;         /* Make it circular */
   margin: 10px;               /* Space between blocks */
